@@ -133,7 +133,7 @@ vector<string> LinuxParser::CpuUtilization(){
   return data;
 }
 // DONE----------------: Read and return CPU utilization
-float LinuxParser::CpuUtilization2(int pid){
+float LinuxParser::CpuUtilization(int pid){
   string line;
   string value;
   vector<int> keys {14, 15, 16, 17, 22};
